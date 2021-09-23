@@ -116,3 +116,41 @@ body {
   opacity: 0.4;
   background-color: hsl(277, 64%, 61%);
 }
+
+@media (max-width: 1038px) {
+  .container {
+    flex-direction: column-reverse;
+    max-height: none;
+    min-width: 450px;
+  }
+
+  .container-items {
+    margin: auto 60px auto 60px;
+  }
+
+  .container-items h1 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .social-info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .container-text {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .image-container img {
+  }
+
+  .social-info div p:last-child {
+    margin-bottom: 35px;
+  }
+}
