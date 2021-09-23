@@ -121,7 +121,7 @@ body {
   .container {
     flex-direction: column-reverse;
     max-height: none;
-    min-width: 450px;
+    max-width: 450px;
   }
 
   .container-items {
